@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.belajar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".AplikasiBelajarAlphabetActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MenuAplhabet"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MenuAplhabet" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Flashcard"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Flashcard" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".MenuFlashcard"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MenuFlashcard" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Bb"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Bb" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".C"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.C" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Dd"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Dd" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Ee"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Ee" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Ff"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Ff" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Gg"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Gg" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Hh"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Hh" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Ii"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Ii" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Jj"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Jj" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Kk"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Kk" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Ll"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Ll" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Mm"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Mm" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Nn"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Nn" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Oo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Oo" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Pp"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Pp" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Qq"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Qq" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Rr"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Rr" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Ss"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Ss" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Tt"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Tt" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Uu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Uu" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Vv"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Vv" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Ww"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Ww" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Xx"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Xx" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Yy"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Yy" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Zz"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Zz" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".CapterC"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CapterC" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Quiz"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Quiz" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".HasilQuiz"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.HasilQuiz" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>

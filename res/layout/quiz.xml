@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#20639B">
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pertanyaan Kius"
+        android:id="@+id/pertanyaan"
+        android:textSize="18dp"
+        android:textColor="#FFFF"/>
+    
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+        <RadioButton
+            android:id="@+id/pilihanA"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Pilihan A"
+        	android:checked="true"
+        	/>
+        
+        <RadioButton
+            android:id="@+id/pilihanB"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Pilihan B"
+        	/>
+        
+        <RadioButton
+            android:id="@+id/pilihanC"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Pilihan C"
+        	/>
+        
+        <RadioButton
+            android:id="@+id/pilihanD" 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Pilihan D"
+        	/>
+    </RadioGroup>
+
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#20639B" >
+
+	        <ImageView
+	            android:id="@+id/imageView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_above="@+id/button1"
+	            android:scaleType="fitEnd"
+	            android:src="@drawable/anak" />
+
+	        <Button
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:onClick="next"
+	            android:text="Next" />
+	    </RelativeLayout>
+	
+</LinearLayout>
